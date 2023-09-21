@@ -1,11 +1,11 @@
-"use client";
 /* eslint-disable @next/next/no-css-tags */
 
 import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
 import { Providers } from "@/lib/redux/Providers";
 import { Inter } from "next/font/google";
-import { AppProgressBar as ProgressBar } from "next-nprogress-bar";
+
+import ProgressBar from "@/components/common/ProgressBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -31,12 +31,7 @@ export default function RootLayout({ children }) {
         <body className={inter.className}>
           <Header />
           {children}
-          <ProgressBar
-            height="2px"
-            color="white"
-            options={{ showSpinner: false }}
-            shallowRouting
-          />
+          <ProgressBar />
           <Footer />
         </body>
       </Providers>
