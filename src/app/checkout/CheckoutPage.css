@@ -1,0 +1,32 @@
+/* Style the container */
+.Checkout .container {
+  padding-top: 120px !important;
+  padding-bottom: 120px !important;
+}
+
+/* Style the form input fields */
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+/* Style the product details card */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product_sub_image {
+  width: 25px;
+  height: auto;
+  margin-right: 5px;
+}
