@@ -61,7 +61,7 @@ export const products = [
     image: "bowl-3",
     price: 110,
     name: "pizza",
-    category: "spice products",
+    category: "food",
   },
   {
     id: 8,

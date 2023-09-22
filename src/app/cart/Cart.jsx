@@ -10,8 +10,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const Cart = () => {
-  const { cartDetails, total: inTotal } = useSelector((state) => state.cart);
-  console.log("🚀 ~ file: Cart.jsx:14 ~ Cart ~ inTotal:", inTotal);
+  const { cartDetails } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
   // Calculate total price
@@ -34,6 +33,7 @@ const Cart = () => {
   return (
     <div className="untree_co-section before-footer-section">
       <div className="container">
+        
         <div className="row mb-5">
           <form className="col-md-12" method="post">
             <div className="site-blocks-table">
