@@ -17,21 +17,21 @@ const Footer = () => {
           modules={[Autoplay, EffectFade]}
           effect="fade"
         >
-          <SwiperSlide>
+          <SwiperSlide className="footer-slide">
             <img
               src="/assets/images/sofa.png"
               alt="Image"
               className="img-fluid sofa-img"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="footer-slide">
             <img
               src="/assets/images/mo-shop.png"
               alt="Image"
               className="img-fluid mobile-shop"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="footer-slide">
             <img
               src="/assets/images/couch.png"
               alt="Image"

@@ -1271,15 +1271,16 @@ nav.custom-navbar.navbar.navbar-expand-md.navbar-white.bg-white.black-text
 nav.custom-navbar.navbar.navbar-expand-md.navbar-white.bg-white.black-text
   .nav-link
   i,
-nav.custom-navbar.navbar.navbar-expand-md.navbar-white.bg-white.black-text button.navbar-toggle.px-2.border-0.me-3.bg-transparent
+nav.custom-navbar.navbar.navbar-expand-md.navbar-white.bg-white.black-text
+  button.navbar-toggle.px-2.border-0.me-3.bg-transparent
   span {
   color: #000;
 }
 
-.swiper-slide {
+.swiper-slide.footer-slide {
   opacity: 0 !important;
 }
 
-.swiper-slide.swiper-slide-visible.swiper-slide-active {
+.swiper-slide.footer-slide.swiper-slide-visible.swiper-slide-active {
   opacity: 1 !important;
 }

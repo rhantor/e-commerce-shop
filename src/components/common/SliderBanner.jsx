@@ -52,7 +52,7 @@ const SliderBanner = ({ shop = false }) => {
         <SwiperSlide className="d-flex slide_item beauty_banner">
           <div className="intro-excerpt">
             <h1 className="display-4 text-white fw-bold mb-2">
-              Iterior Modern Design.
+              Beauty Products Are Here .
             </h1>
             <p className="text-white fw-lighter">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
