@@ -41,9 +41,9 @@ const ProductDetails = ({ product }) => {
           />
         </div>
       </div>
-      <div className="right col-12 col-lg-4 ">
+      <div className="right col-12 col-lg-4  text-black">
         <h1 className="product_title text-black display-5">{product.title}</h1>
-        <p>
+        <p >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi harum
           minima aliquid dicta nam aperiam voluptatum eveniet perferendis esse
           dolores!

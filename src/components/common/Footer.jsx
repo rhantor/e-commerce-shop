@@ -1,18 +1,44 @@
+"use client";
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
-
+import { Autoplay, EffectFade } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css/effect-fade";
+import "swiper/css";
 const Footer = () => {
   return (
     <footer className="footer-section">
       <div className="container relative">
-        <div className="sofa-img">
-          <img
-            src="/assets/images/sofa.png"
-            alt="Image"
-            className="img-fluid"
-          />
-        </div>
+        <Swiper
+          className="slide-img"
+          loop={true}
+          autoplay={{ delay: 2000 }}
+          modules={[Autoplay, EffectFade]}
+          effect="fade"
+        >
+          <SwiperSlide>
+            <img
+              src="/assets/images/sofa.png"
+              alt="Image"
+              className="img-fluid sofa-img"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="/assets/images/mo-shop.png"
+              alt="Image"
+              className="img-fluid mobile-shop"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="/assets/images/couch.png"
+              alt="Image"
+              className="img-fluid sofa-img"
+            />
+          </SwiperSlide>
+        </Swiper>
 
         <div className="row">
           <div className="col-lg-8">

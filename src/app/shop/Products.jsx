@@ -29,7 +29,10 @@ const Products = () => {
   }, [dispatch, searchInput]);
 
   return (
-    <div className="untree_co-section product-section before-footer-section">
+    <div
+      className="untree_co-section product-section before-footer-section"
+      id="shop"
+    >
       <div className="container">
         <div className="form-group mb-5 row justify-content-center">
           <div className="col-6 position-relative mx-5">

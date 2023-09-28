@@ -1,11 +1,20 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./CheckoutPage.css";
 import CheckoutProducts from "./CheckoutProducts";
 import CheckoutBillingDetails from "./CheckoutBillingDetails";
 
 function CheckoutPage() {
+  useEffect(() => {
+    const menuBar = document?.querySelector(".custom-navbar");
+    if (!menuBar.classList.contains("fixed_menu")) {
+      menuBar.classList.add("black-text");
+    }
+    return () => {
+      menuBar.classList.remove("black-text");
+    };
+  }, []);
   return (
     <div class="untree_co-section">
       <div class="container">

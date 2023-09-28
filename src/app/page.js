@@ -5,17 +5,19 @@ import Help from "@/components/common/Help";
 import PopularProduct from "@/components/common/PopularProduct";
 import Testimonial from "@/components/common/Testimonial";
 import WhyChoose from "@/components/common/WhyChoose";
+import SliderBanner from "@/components/common/SliderBanner";
 
 export default function Home() {
   return (
     <>
-      <Banner
+      {/* <Banner
         title={"Modern Interior Design Studio"}
         body={
           " Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet  velit. Aliquam vulputate velit imperdiet dolor tempor tristique."
         }
-      />
-      <DemoProduct  />
+      /> */}
+      <SliderBanner />
+      <DemoProduct />
       <WhyChoose />
       <Help />
       <PopularProduct />
